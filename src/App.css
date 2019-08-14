@@ -1,0 +1,53 @@
+body{
+    background: #0F2027;
+}
+
+.navbar {
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-bottom: 2px solid #138496;
+}
+
+.card{
+    align-items: center;
+    color: #fff;
+    background: #0F2027;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid #138496;
+    transition: 0.2s ease-in-out;
+}
+
+.card-img-top{
+    width: 5rem;
+    border: 2px solid #138496;
+    transition: 0.2s ease-in-out;
+}
+
+.user-card:hover .card-img-top {
+    border: 2px solid #ffc107;
+    transition: 0.2s ease-in-out;
+}
+
+.user-card:hover{
+    border:1px solid #ffc107;
+}
+
+.search-btn{
+    padding-left: 80px;
+    padding-right: 80px;
+    transition: 0.2s ease-in-out;
+}
+
+.list-group-item {
+    background: transparent;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.badge{
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #ffc107;
+}
